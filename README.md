@@ -37,6 +37,12 @@ The colors are taken from the [GitHub Primer CSS color system](https://primer.st
 
 The threshold for these is currently hardcoded (in `background.js`), but I plan on making them customizable.
 
+## Installation
+
+Clone this repo (or download the zip and extract it to a local folder) and follow these steps:
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#Trying_it_out
+
+
 ## How it works
 
 This extension includes:
