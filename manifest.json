@@ -1,0 +1,25 @@
+{
+  "description": "Provide activity overview for GitHub repositories",
+  "manifest_version": 2,
+  "name": "github-repo-status",
+  "version": "1.0",
+  "homepage_url": "https://github.com/pierluigi/github-repo-status-webextension",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "page_action": {
+    "default_icon": "icons/unknown.svg",
+    "browser_style": true
+  },
+
+  "permissions": ["activeTab", "tabs"]
+}
