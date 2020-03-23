@@ -10,6 +10,8 @@ I needed a quick way to determine if a repository on GitHub seems to have an act
 
 This is by no means the one true indicator of a repository's activity and/or "quality". It simply serves my need of quickly filtering out inactive repositories. If you have a similar need, be my guest.
 
+Also note this extension is not affiliated in any way with GitHub, Inc.
+
 # What it does
 
 A repository can be in any of these statuses:
